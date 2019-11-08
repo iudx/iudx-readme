@@ -22,18 +22,29 @@ This document provides examples to get one stared quickly on using IUDX. The exa
 ## Catalogue APIs
 
 - Search a set of resources using attribute search. For example, search using 'tags' attribute to search for all resources with 'pollution' tag.
+```bash
 curl -X GET  "https://pudx.catalogue.iudx.org.in/catalogue/v1/search?attribute-name=(tags)&attribute-value=(pollution)"  -H 'Accept: application/json'
+```
   - Replace 'search' with 'count' in the URL-path above above to get count of all found resource items
+
+```bash
 curl -X GET  "https://pudx.catalogue.iudx.org.in/catalogue/v1/count?attribute-name=(tags)&attribute-value=(pollution)"  -H 'Accept: application/json'
+```
   - Get only some fields from the catalogue item by specifying an attribute filter. For example, only get "NAME" and "id" attributes for the found items
+```bash
 curl -X GET  "https://pudx.catalogue.iudx.org.in/catalogue/v1/search?attribute-name=(tags)&attributelue=(pollution)&attribute-filter=(id,NAME)"  -H 'Accept: application/json'
+```
 
 - Search a set of resources using simple proximity search
+```bash
 curl -X GET  "https://pudx.catalogue.iudx.org.in/catalogue/v1/search?lat=18.528311&lon=73.874537&radius=2000"  -H 'Accept: application/json'
+```
    - 'lat', 'lon' are the latitude and longitude values of the centre point. 'radius' is specified in meters.
 
 - List all items in catalogue
+```bash
 curl -X GET   "https://pudx.catalogue.iudx.org.in/catalogue/v1/search"  -H 'Accept: application/json' -H 'Cache-Control: no-cache'
+```
 
 Now that we have got started on IUDX Catalogue, refer to the full [API specifications](https://apidocs.iudx.org.in/cat) for more detailed information
 
