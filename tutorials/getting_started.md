@@ -70,5 +70,6 @@ Detailed resource server API specifications can be found [here](https://apidocs.
 
 
 ## Authentication Authorization and Accounting AAA server 
-	- To get a digital certificate, please visit [IUDX CA](https://ca.iudx.org.in).
-	- To know about the setup and APIs please visit [Auth Server](http://auth.iudx.org.in) 
+
+ - To get a digital certificate, please visit the [IUDX CA](https://ca.iudx.org.in).
+ - To know about the AAA setup and APIs please visit the [Auth Server](http://auth.iudx.org.in) 
