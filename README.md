@@ -3,10 +3,8 @@
 - IUDX instance for Pune City ([PUDX](https://pudx.catalogue.iudx.org.in))
 - IUDX Reference Documents
   - [Reference Architecture](ref-docs/Data_Exhange_Reference_Architecture_v0.7.pdf)
-  - White paper
-  - IUDX Introduction
 
 - [Getting Started with IUDX](tutorials/getting_started.md)
-- IUDX API Documentation
-- Python SDK for IUDX ([pyIUDX]())
-- Jupyter Notebook 
+- [IUDX API Documentation](https://apidocs.iudx.org.in)
+- [Python SDK for IUDX](https://github.com/iudx/pyIUDX))
+- [Jupyter Notebook](https://colab.research.google.com/github/iudx/pyIUDX/blob/master/examples/pyIUDX_sample_usecases.ipynb)
