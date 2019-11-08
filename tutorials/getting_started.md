@@ -54,9 +54,9 @@ Now that we have got started on IUDX Catalogue, refer to the full [API specifica
    ```bash
    curl -X POST \
    https://pudx.resourceserver.iudx.org.in/resource-server/pscdcl/v1/search \
-  -H 'Accept: */*' \
-  -H 'Content-Type: application/json' \
-  -d '{
+   -H 'Accept: \*/\*' \
+   -H 'Content-Type: application/json' \
+   -d '{
         "id": "rbccps.org/aa9d66a000d94a78895de8d4c0b3a67f3450e531/pudx-resource-server/aqm-bosch-climo/Susgaon_46",
         "options": "latest"
    }'
