@@ -68,3 +68,7 @@ Now that we have got started on IUDX Catalogue, refer to the full [API specifica
    ```
 Detailed resource server API specifications can be found [here](https://apidocs.iudx.org.in/rs). For advance usage refer to [IUDX Python SDK](https://github.com/iudx/pyIUDX).
 
+
+## Authentication Authorization and Accounting AAA server 
+	- To get a digital certificate, please visit [IUDX CA](https://ca.iudx.org.in).
+	- To know about the setup and APIs please visit [Auth Server](http://auth.iudx.org.in) 

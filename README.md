@@ -6,3 +6,5 @@
 - [IUDX API Documentation](https://apidocs.iudx.org.in)
 - [Python SDK for IUDX](https://github.com/iudx/pyIUDX))
 - [Example Jupyter Notebook](https://colab.research.google.com/github/iudx/pyIUDX/blob/master/examples/pyIUDX_sample_usecases.ipynb)
+- [IUDX Certificate Authority](https://ca.iudx.org.in))
+- [IUDX AAA Server](http://auth.iudx.org.in))
