@@ -1,4 +1,4 @@
-#Getting started with IUDX
+# Getting started with IUDX
 
 IUDX consists of following components
 
@@ -13,13 +13,13 @@ IUDX consists of following components
 This document provides examples to get one stared quickly on using IUDX. The examples below are for the Pune instance of IUDX, also referred to as PUDX.
 
 
-##Information Resources
+## Information Resources
 <Link to IUDX Documents>
 <Link to pyIUDX>
 <Link to Jupyter Notebook>
 <Link to API docs>
 
-##Catalogue APIs
+## Catalogue APIs
 
 - Search a set of resources using attribute search. For example, search using 'tags' attribute to search for all resources with 'pollution' tag.
 curl -X GET  "https://pudx.catalogue.iudx.org.in/catalogue/v1/search?attribute-name=(tags)&attribute-value=(pollution)"  -H 'Accept: application/json'
@@ -37,7 +37,7 @@ curl -X GET   "https://pudx.catalogue.iudx.org.in/catalogue/v1/search"  -H 'Acce
 
 Now that we have got started on IUDX Catalogue, refer to the full [API specifications](https://apidocs.iudx.org.in/cat) for more detailed information
 
-##Resource Server APIs
+## Resource Server APIs
  - Get latest data from the resource. 
    - Uses the "id" attribute which can be read from corresponding catalogue item
    ```bash
