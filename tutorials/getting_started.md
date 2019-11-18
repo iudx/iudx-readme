@@ -68,7 +68,7 @@ Now that we have got started on IUDX Catalogue, refer to the full [API specifica
    ```
 Detailed resource server API specifications can be found [here](https://apidocs.iudx.org.in/rs). For advance usage refer to [IUDX Python SDK](https://github.com/iudx/pyIUDX).
 ### Note
-- For certain temporal queries, e.g., "TRelation" equal to "during" or "before", to limit the response data size, there may be a restriction on the allowed time interval for which response data is provided. An error code of "406" will indicate the exceeded limit along with the maximum allowed time interval (in days).
+- For certain temporal queries, e.g., "TRelation" equal to "during" or "before", to limit the response data size, there may be a restriction on the allowed time interval for which response data is provided. An error code of "416" will indicate the exceeded limit along with the maximum allowed time interval (in days).
 
 
 ## Authentication Authorization and Accounting AAA server 
