@@ -14,7 +14,7 @@ This document provides examples to get one stared quickly on using IUDX. The exa
 
 ## Catalogue APIs
 
-- Search a set of resources using attribute search. For example, search using 'tags' attribute to search for all resources with 'pollution' tag.
+- Search a set of resources using attribute search. For example, search using 'tags' attribute to search for all resources with the 'pollution' tag.
 ```bash
 curl -X GET  "https://pudx.catalogue.iudx.org.in/catalogue/v1/search?attribute-name=(tags)&attribute-value=(pollution)"  -H 'Accept: application/json'
 ```
