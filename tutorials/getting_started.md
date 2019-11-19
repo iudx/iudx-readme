@@ -10,7 +10,7 @@ IUDX consists of following components
 - Authorisation server 
   - Manages authorisation to access the data-resources
 
-This document provides examples to get one stared quickly on using IUDX. The examples below are for the Pune instance of IUDX, also referred to as PUDX.
+This document provides examples to get you stared quickly on using IUDX. The examples below are for the Pune instance of IUDX, also referred to as PUDX.
 
 ## Catalogue APIs
 
